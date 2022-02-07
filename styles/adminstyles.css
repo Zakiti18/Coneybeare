@@ -1,0 +1,59 @@
+body{
+    background-color: aliceblue;
+}
+
+#childJumbo{
+    background-color: #fafafa;
+}
+
+.container{
+    max-width: 1110px;
+}
+
+@media (max-width: 1199px){
+    .container{
+        max-width: 930px;
+    }
+}
+
+@media (max-width: 991px){
+    .container{
+        max-width: 690px;
+    }
+}
+
+@media (max-width: 768px){
+    .container{
+        max-width: 510px;
+    }
+    .col-6{
+        padding: 0;
+        margin-top:0 !important;
+    }
+}
+
+.container #companyInfo, #contactInfo{
+    background-color: white;
+}
+.col-12:last-child{
+    margin-top: 1rem;
+}
+#approve:hover , #deny:hover{
+    color: white;
+}
+#approve:hover{
+    background:green;
+}
+#deny:hover{
+    background: red;
+}
+#deniedPopUp{
+    display: none;
+}
+hr{
+    width:100%;
+    border: 1px solid grey;
+}
+#icon{
+    padding: 3rem 0 1rem 0 !important;
+}

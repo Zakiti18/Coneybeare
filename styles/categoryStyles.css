@@ -1,0 +1,164 @@
+body{
+    background-image: url('/images/hangingLightbulbs.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.card{
+    height: 100%;
+    margin-bottom: 1rem;
+}
+.card-text:last-child{
+    margin-bottom: 0;
+    font-size: 0.8rem;
+    display: inline-block;
+}
+.category{
+    text-transform: uppercase;
+    font-size: 70%;
+    text-align: left;
+    font-weight: bold;
+    display: block;
+}
+#category{
+    width:47%;
+}
+.col-12{
+    margin-bottom: 1rem;
+}
+.card-body{
+    padding-bottom:0;
+    background:aliceblue;
+}
+.card:hover, .card-body:hover{
+    background:rgba(34,139,71,0.1);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.card-header{
+    padding-bottom: 0;
+}
+.card-img-top{
+    border-radius: 0;
+}
+.card-footer{
+    text-align:center;
+}
+.card-footer hr{
+    margin:0;
+}
+.card h5{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.card-text .btn{
+    padding: 0;
+    margin-left: 0.5rem;
+    font-size:0.8rem;
+}
+#categorySelect{
+    width: 47%;
+}
+
+.container-fluid{
+    margin: 1rem auto;
+}
+.height{
+    height: 100%;
+}
+hr{
+    margin-bottom: 0;
+}
+img{
+    height:200px;
+    width:200px;
+}
+label{
+    font-size:2rem;
+}
+#main div h1{
+    margin: 0.5rem auto;
+    text-align: center;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
+
+
+#main{
+    width: 1110px;
+    background: white;
+    margin: 0 auto 0 auto;
+}
+
+p.card-text:first-child{
+    height: 80%;
+    font-size: 1rem;
+    overflow-x: hidden;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    -webkit-box-orient: vertical;
+    max-height: 5.2em;
+    line-height: 1.8em;
+    scrollbar-width:thin;
+    scrollbar-color: #90C5A3 #FFFFFF;
+}
+p{
+    font-size: 0.8rem;
+    padding: 0.1rem;
+}
+p::-webkit-scrollbar {
+    height: 12px;
+    width: 8px;
+    background: #FFFFFF;
+    -webkit-border-radius: 1ex;
+}
+
+p::-webkit-scrollbar-thumb {
+    background:rgba(34,139,71,0.5);
+    -webkit-border-radius: 1ex;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+p::-webkit-scrollbar-corner {
+    background: #000;
+}
+.titleIcon{
+    height:20px;
+    width: 20px;
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+
+/* media queries */
+@media (max-width: 1199px){
+    .container{
+        max-width: 930px;
+    }
+}
+
+@media (max-width: 991px){
+    .container{
+        max-width: 690px;
+    }
+}
+
+@media (max-width: 768px){
+    #category{
+        width: 200px;
+    }
+    .container{
+        max-width: 510px;
+    }
+    img{
+        width:200px;
+        height:200px;
+        margin: 0;
+    }
+    #main{
+        width:100%;
+    }
+    #main div h1{
+        font-size: 1.8rem;
+    }
+    #parent{
+        width: 90%;
+        margin: auto;
+    }
+}

@@ -1,0 +1,116 @@
+/**
+CSS page layout.
+Company name: Coneybeare
+@Author: JDPR
+Software Development student
+ */
+body{
+    background-image:url(/images/solarPanels.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.jumbotron#child {
+    background-color: #fafafa;
+    width: 100%;
+}
+
+.jumbotron {
+    background-color: #ffffff;
+    padding-top: 1rem;
+    margin-bottom:0;
+    border-radius: 0;
+}
+
+.jumbotron > h1 {
+    text-align: center;
+}
+
+.jumbotron > p {
+    text-align: center;
+}
+.jumbotron h3{
+    background-image: url('/images/niceHills.jpg');
+    background-position: center;
+    color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 2rem;
+    text-shadow: 0.1em 0.1em 0.05em #333
+}
+/* Signup */
+.btn-primary{
+    background-color: forestgreen !important;
+    border-color: black !important;
+}
+
+#categories {
+    display: grid;
+    text-align: center;
+    grid-template-areas:
+                        "E W T A"
+}
+
+#categories a:hover {
+    background-color: forestgreen;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+#categories div:hover p{
+    color: white;
+    text-shadow: 0.1em 0.1em 0.05em #333
+}
+#child > p {
+    margin: 0 0 1rem 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a div img {
+    height: 70px;
+    width: 60px;
+    margin: 10px;
+}
+
+a > div p {
+    color: rgba(34,139,34,0.9);
+}
+
+p {
+    text-align: center;
+}
+
+
+@media (max-width: 768px){
+    a div {
+        font-size: 0.7rem;
+    }
+    a div img{
+        height: 40px;
+        width: 30px;
+        margin: 5px;
+    }
+    #categories{
+        
+    }
+    .jumbotron h3{
+        margin: 1rem;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    .jumbotron{
+        padding: 0;
+        padding-top: 0.2rem;
+    }
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+}
